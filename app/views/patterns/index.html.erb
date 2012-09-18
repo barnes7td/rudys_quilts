@@ -1,0 +1,36 @@
+<h2>Patterns</h2>
+
+<% @patterns.each do |pattern| %>
+  <table>
+    <tr>
+      <td><img src="<%=pattern.picture%>" width="200"/></td>
+      <td>
+        <table>
+          <tr>
+            <td><h3><%=pattern.title%></h3></td>
+          </tr>
+          <tr>
+            <td><p><%=pattern.description%></p></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td><%= link_to 'Show', pattern %></td>
+            <td><%= link_to 'Edit', edit_pattern_path(pattern) %></td>
+            <td><%= link_to 'Destroy', pattern, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+          </tr>
+        </table>
+      </td>
+    </tr> 
+  </table>
+  <br />
+  <br />
+<% end %>
+
+<br />
+
+<%= link_to 'New Pattern', new_pattern_path %>
