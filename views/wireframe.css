@@ -17,17 +17,17 @@ header{
 }
 
 header h1 {
-	margin-left: 30px;
+  margin-left: 30px;
 }
 
 header li {
-	list-style: none;
+  list-style: none;
   float: left;
   margin-left: 30px;
 }
 
 nav {
-	
+  
 }
 
 
@@ -39,56 +39,56 @@ nav {
 }
 
 #slideshow {
-	float: left;
-	height: 450px;
+  float: left;
+  height: 450px;
   width: 360px;
 }
 
 #slideshow img{
-	margin: 30px;
+  margin: 30px;
 }
 
 #main_info {
-	float: left;
-	height: 450px;
-	width: 640px;
+  float: left;
+  height: 450px;
+  width: 640px;
 }
 
 #main_info #greeting{
-	height: 140px;
-	width: 600px;
-	margin: 10px;
-	margin-top: 30px;
+  height: 140px;
+  width: 600px;
+  margin: 10px;
+  margin-top: 30px;
 }
 
 #main_info #posts{
-	margin: 10px;
-	width: 600px;
+  margin: 10px;
+  width: 600px;
 }
 
 
 /* FOOTER */
 
 #recent_buys {
-	width: 100%;
-	float: left;
-	margin-left: 30px;
+  width: 100%;
+  float: left;
+  margin-left: 30px;
 }
 
 #recent_buys h1{
 }
 
 #recent_buys .tease {
-	width: 150px;
-	height: 140px;
-	float: left;
+  width: 150px;
+  height: 140px;
+  float: left;
 }
 
 #recent_buys img {
-	margin-left: 37px;
+  margin-left: 37px;
 }
 
 #recent_buys p {
-	position: relative;
-	left: 20px;
+  position: relative;
+  left: 20px;
 }
