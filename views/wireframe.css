@@ -5,6 +5,13 @@
 body {
   width:1000px;
   margin-left: 50px;
+  margin-top: 20px;
+  font-family: Verdana;
+  background: #F8FCDC;
+}
+
+a:hover {
+  color: #F04F0A;
 }
 
 
@@ -13,17 +20,35 @@ body {
 header{
   height: 100px;
   width: 1000px;
+  margin-bottom: 20px;
+  float: left;
+  background: #ABC217;
+}
+
+header #logo {
+  height: 140px;
+  width: 140px;
   float: left;
 }
 
 header h1 {
   margin-left: 30px;
+  font-weight: lighter;
 }
 
 header li {
+  position: relative;
+  top: 60px;
   list-style: none;
   float: left;
   margin-left: 30px;
+  font-size: 20px;
+}
+
+header li a {
+  text-decoration: none;
+  color: white;
+
 }
 
 nav {
@@ -40,7 +65,7 @@ nav {
 
 #slideshow {
   float: left;
-  height: 450px;
+  height: 430px;
   width: 360px;
 }
 
@@ -50,20 +75,36 @@ nav {
 
 #main_info {
   float: left;
-  height: 450px;
+  height: 430px;
   width: 640px;
 }
 
 #main_info #greeting{
   height: 140px;
-  width: 600px;
+  width: 500px;
   margin: 10px;
   margin-top: 30px;
 }
 
 #main_info #posts{
   margin: 10px;
-  width: 600px;
+  width: 500px;
+}
+
+#main_info .post{
+  font-size: 14px;
+  color: #383835;
+  border: 1px dashed #FAC905;
+  padding: 5px;
+}
+
+#main_info .timestamp{
+  font-size: 10px;
+  color: #ABC217;
+}
+
+hr {
+  border: 1px dashed #ABC217;
 }
 
 
@@ -72,10 +113,17 @@ nav {
 #recent_buys {
   width: 100%;
   float: left;
-  margin-left: 30px;
+  margin-top: 25px;
+  margin-left: 0px;
+  background: #ABC217;
+  padding-left: 30px;
+  width: 970px;
 }
 
-#recent_buys h1{
+#recent_buys h2{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 #recent_buys .tease {
@@ -86,9 +134,14 @@ nav {
 
 #recent_buys img {
   margin-left: 37px;
+  width: 75px;
+  height: 100px;
+  padding: 4px;
+  border: 3px dashed #F8FCDC;
 }
 
 #recent_buys p {
+  color: black;
   position: relative;
-  left: 20px;
+  font-size: 12px;
 }
