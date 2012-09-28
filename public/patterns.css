@@ -10,6 +10,11 @@ body {
   background: #F8FCDC;
 }
 
+a {
+  text-decoration: none;
+  color: #ABC217;
+}
+
 a:hover {
   color: #F04F0A;
 }
@@ -23,6 +28,7 @@ header{
   margin-bottom: 20px;
   float: left;
   background: #ABC217;
+  margin-bottom: 60px;
 }
 
 header #logo {
@@ -63,63 +69,25 @@ nav {
  min-height:450px;
 }
 
-#slideshow {
-  float: left;
-  height: 430px;
-  width: 360px;
-}
-
-#slideshow img{
-  margin: 30px;
-}
-
 #main_info {
   float: left;
-  height: 430px;
+  height: 800px;
   width: 640px;
-}
-
-#main_info #greeting{
-  height: 140px;
-  width: 500px;
-  margin: 10px;
-  margin-top: 30px;
-}
-
-#main_info #posts{
-  margin: 10px;
-  width: 500px;
-}
-
-#main_info .post{
-  font-size: 14px;
-  color: #383835;
-  border: 1px dashed #FAC905;
-  padding: 5px;
-}
-
-#main_info .timestamp{
-  font-size: 10px;
-  color: #ABC217;
-}
-
-hr {
-  border: 1px dashed #ABC217;
 }
 
 
 /* CONTACT PAGE */
 
-#head_shot {
-  height: 200px;
-  float: left;
-  margin-top: 50px;
-  margin-right: 20px;
+.pattern {
+  width: 800px;
+  height: 160px;
 }
 
-#contact_info {
-  margin-top: 150px;
-  line-height: 5px;
+.pattern img {
+  height: 160px;
+  float: left;
+  margin-right: 20px;
+
 }
 
 
