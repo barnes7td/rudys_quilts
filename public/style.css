@@ -1,4 +1,4 @@
-
+/* COMMON ELEMENTS */
 
 /* BODY */
 
@@ -8,6 +8,11 @@ body {
   margin-top: 20px;
   font-family: Verdana;
   background: #F8FCDC;
+}
+
+a {
+  text-decoration: none;
+  color: #ABC217;
 }
 
 a:hover {
@@ -51,12 +56,47 @@ header li a {
 
 }
 
-nav {
-  
+
+/* FOOTER */
+
+#recent_buys {
+  width: 100%;
+  float: left;
+  margin-top: 25px;
+  margin-left: 0px;
+  background: #ABC217;
+  padding-left: 30px;
+  width: 970px;
+}
+
+#recent_buys h2{
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#recent_buys .tease {
+  width: 150px;
+  height: 140px;
+  float: left;
+}
+
+#recent_buys img {
+  margin-left: 37px;
+  width: 75px;
+  height: 100px;
+  padding: 4px;
+  border: 3px dashed #F8FCDC;
+}
+
+#recent_buys p {
+  color: black;
+  position: relative;
+  font-size: 12px;
 }
 
 
-/* MAIN CONTENT */
+/* HOME PAGE MAIN CONTENT */
 
 #middle {
  width: 1000px;
@@ -108,7 +148,7 @@ hr {
 }
 
 
-/* CONTACT PAGE */
+/* CONTACT PAGE MAIN CONTENT */
 
 #head_shot {
   height: 200px;
@@ -123,40 +163,26 @@ hr {
 }
 
 
-/* FOOTER */
+/* PATTERNS PAGE MAIN CONTENT */
 
-#recent_buys {
-  width: 100%;
+#patterns_area {
+ width: 1000px;
+ min-height:450px;
+}
+
+#pattern_info {
   float: left;
-  margin-top: 25px;
-  margin-left: 0px;
-  background: #ABC217;
-  padding-left: 30px;
-  width: 970px;
+  height: 800px;
+  width: 640px;
 }
 
-#recent_buys h2{
-  margin-top: 10px;
-  font-size: 20px;
-  font-weight: lighter;
+.pattern {
+  width: 800px;
+  height: 160px;
 }
 
-#recent_buys .tease {
-  width: 150px;
-  height: 140px;
+.pattern img {
+  height: 160px;
   float: left;
-}
-
-#recent_buys img {
-  margin-left: 37px;
-  width: 75px;
-  height: 100px;
-  padding: 4px;
-  border: 3px dashed #F8FCDC;
-}
-
-#recent_buys p {
-  color: black;
-  position: relative;
-  font-size: 12px;
+  margin-right: 20px;
 }
