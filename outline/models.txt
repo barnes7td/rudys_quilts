@@ -1,0 +1,44 @@
+Customer
+  name
+  email
+  password
+
+Administrator
+  name
+  password
+
+Patterns
+  image_url
+  title
+  description
+  price
+
+About
+  description
+  image_url
+
+Contact
+  name
+  email
+  phone
+  street
+  city
+  state
+
+DisplayPosts
+  admin_id
+  description
+
+Orders
+  customer_id
+  pattern_id
+  *shipping_address (depending on implementation)
+
+DisplayFront
+  pattern_id
+  display_title
+  display_description
+
+RecentlyPurchased (not sure if I need)
+  pattern_id
+

@@ -1,0 +1,11 @@
+Administrator
+
+Admin adds a pattern
+  Goes to Sign in page and signs in
+  Chooses the pattern button from the Admin Home Page
+  Chooses add pattern link/button
+  Enters url of image | or uploads image to website
+  Enters name of pattern
+  Enters descripton of pattern
+  Presses submit
+  Sees conformation

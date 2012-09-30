@@ -1,0 +1,10 @@
+Customer
+
+Buy Patterns
+  Goes to Home Page
+  Goes to Patterns page
+  Goes to specific pattern page
+  Selects Buy
+  Fills out shipping or emailing info
+  Sees confirmation page
+  Redirects to Patterns page
